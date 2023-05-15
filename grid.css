@@ -1,0 +1,251 @@
+.grid {
+    
+        display: grid;
+        gap: 10px;
+        margin: 0 auto;
+        height: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+
+
+html{
+    height: 100%;
+    max-height: 100%;
+    line-height: 1.7rem;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+}
+
+.caja{
+    background-color: peachpuff;
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+@media(min-width: 0px) and (max-width:321px) {  
+    .grid{ 
+        grid-template-columns: repeat(1, 1fr);}
+    
+        .caja1 {
+            background-color: rgb(90, 223, 37);
+            border-radius: 10px;
+            height: 150px;
+            padding: 10px;
+    }
+
+    .caja2 {
+        background-color: rgb(43, 157, 165);
+        border-radius: 10px;
+        height: 150px;
+        padding: 10px;
+}
+.caja3 {
+    background-color: rgb(78, 4, 50);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja4 {
+    background-color: rgb(189, 172, 22);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja5 {
+    background-color: rgb(4, 42, 49);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja6 {
+    background-color: rgb(75, 18, 35);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja7 {
+    background-color: rgb(21, 133, 49);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja8 {
+    background-color: rgb(170, 51, 15);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja9 {
+    background-color: rgb(56, 12, 12);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+/* .grid: :first-child{  */
+        /* grid-column-end:  span 2;  */
+    /* } */
+}
+        
+        
+ 
+@media(min-width: 321px) and (max-width:768px) {  
+    .grid{ 
+        grid-template-columns: repeat(2, 1fr);
+       }
+    
+        .caja1 {
+            background-color: rgb(228, 14, 14);
+            border-radius: 10px;
+            height: 150px;
+            padding: 10px;
+    }
+
+    .caja2 {
+        background-color: rgb(228, 225, 53);
+        border-radius: 10px;
+        height: 150px;
+        padding: 10px;
+}
+.caja3 {
+    background-color: rgb(15, 4, 78);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja4 {
+    background-color: rgb(228, 14, 199);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja5 {
+    background-color: rgb(24, 187, 216);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja6 {
+    background-color: rgb(125, 14, 228);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja7 {
+    background-color: rgb(204, 135, 8);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja8 {
+    background-color: rgb(72, 170, 15);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja9 {
+    background-color: rgb(56, 12, 12);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+/* .grid: :first-child{  */
+        /* grid-column-end:  span 2;  */
+    /* } */
+}
+
+@media(min-width: 769px) {  
+    .grid{ 
+        grid-template-columns: repeat(3, 1fr);
+        }
+        .caja1 {
+            background-color: rgb(207, 87, 87);
+            border-radius: 10px;
+            height: 150px;
+            padding: 10px;
+    }
+
+    .caja2 {
+        background-color: rgb(53, 228, 82);
+        border-radius: 10px;
+        height: 150px;
+        padding: 10px;
+}
+.caja3 {
+    background-color: rgb(78, 4, 8);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja4 {
+    background-color: rgb(207, 228, 14);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja5 {
+    background-color: rgb(24, 187, 216);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja6 {
+    background-color: rgb(228, 14, 210);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja7 {
+    background-color: rgb(94, 63, 5);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja8 {
+    background-color: rgb(22, 20, 173);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.caja9 {
+    background-color: rgb(204, 216, 42);
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+/* .grid: :first-child{  */
+        /* grid-column-end:  span 2;  */
+    /* } */
+}
+        
